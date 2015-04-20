@@ -1,5 +1,5 @@
 #include <iostream>
-#include <windows.h>
+#include <unistd.h>
 
 using namespace std;
 
@@ -8,7 +8,7 @@ int main()
 	while (true)
 	{
 		cout << "1" << endl;
-		Sleep(5000);
+		sleep(5);
 	}
 return 0;
 }
