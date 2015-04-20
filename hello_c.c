@@ -7,7 +7,7 @@ int main()
 {
 	while (true)
 	{
-		cout << "1000" << endl;
+		cout << "test" << endl;
 		sleep(5);
 	}
 return 0;
