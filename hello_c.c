@@ -8,7 +8,7 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     string version;
-	string ver = "1.48";
+	string ver = "2.00";
 	ifstream file;
 	file.open("hello_c.ver");
 	getline(file,version);
