@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	getline(file,version);
 	while (true)
 	{
-		cout << "ver: " << version << " " << "1" << endl;
+		cout << "ver: " << version << " " << "2.00" << endl;
 		sleep(5);
 	}
 return 0;
