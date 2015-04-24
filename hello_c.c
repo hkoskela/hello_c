@@ -8,9 +8,11 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     string version;
+	string ver = "1.47";
 	ifstream file;
 	file.open("hello_c.ver");
 	getline(file,version);
+	file.close(file);
 	while (true)
 	{
 		cout << "ver: " << version << " " << "1" << endl;
